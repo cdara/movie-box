@@ -1,0 +1,62 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+}
+.signup-page {
+  position: relative;
+  background-image: url(../_images/bg-signup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+  height: 100%;
+}
+.signup-form {
+  position: relative;
+  height: auto;
+  left: 10%;
+  top: 20%;
+  background: linear-gradient(#ff0430, #990000);
+  border-radius: 5px;
+  padding: 10px;
+  width: 320px;
+}
+.page-txt {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+.select-plan {
+  border: none;
+  padding: 5px;
+  text-align: center;
+}
+.select-plan label {
+  padding: 10px;
+}
+.member-register {
+  margin: 20px;
+  border: none;
+}
+.member-register input {
+  background: #fff;
+  margin-bottom: 25px;
+  width: 90%;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 1px solid #c6c7cc;
+  padding: 8px;
+}
+#register-btn {
+  background: linear-gradient(#00b3ee, #0066bb);
+  border: 0;
+  color: #fff;
+  border-radius: 2px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+}
+#register-btn:hover {
+  background: #0066bb;
+}

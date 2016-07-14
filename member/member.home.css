@@ -1,0 +1,176 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Century Gothic", 'Lucida Grande', sans-serif;
+  color: white;
+  background-color: black;
+}
+/*
+*Homepage
+*/
+
+.flix-logo img {
+  width: 15%;
+  height: 45px;
+  padding-top: 1%;
+  padding-left: 2%;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.flix-wrapper {
+  position: relative;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+  height: 100%;
+}
+.flix-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.signout-btn {
+  position: absolute;
+  text-align: center;
+  font-size: 10px;
+  background: red;
+  border-radius: 6px;
+  padding: 7px;
+  top: 25%;
+  right: 20px;
+  width: 60px;
+}
+.signout-btn:hover {
+  background: #dc143c;
+  cursor: pointer;
+}
+#search-flix {
+  position: absolute;
+  background: url(../_images/search.png) no-repeat 10px 6px #404040;
+  border: none;
+  font: 12px arial, helvetica, sans-serif;
+  color: white;
+  width: 150px;
+  padding: 5px 15px 5px 30px;
+  border-radius: 20px;
+  top: 30%;
+  right: 350px;
+}
+#search-flix:focus {
+  outline: none;
+}
+.user-name {
+  position: absolute;
+  top: 30%;
+  right: 150px;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+#user-logo {
+  position: absolute;
+  cursor: pointer;
+  top: 25%;
+  right: 120px;
+  height: 25px;
+  width: 25px;
+}
+/*
+*Watch-list for User
+*/
+
+.watch-list {
+  position: relative;
+  color: red;
+  left: 5%;
+  right: 5%;
+  top: 20%;
+  height: 55%;
+  width: 90%;
+  z-index: 1;
+}
+.tile-wrapper {
+  position: absolute;
+  height: 94%;
+  width: 98%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.tile-wrapper::-webkit-scrollbar {
+  display: none;
+}
+.movie-tile {
+  display: inline-flex;
+  width: 18%;
+  height: 90%;
+  margin: 1.2%;
+}
+.movie-tile img {
+  width: 100%;
+  height: 100%;
+  transition: all .1s ease-in-out;
+}
+.movie-tile img:hover {
+  transform: scale(1.06);
+  cursor: pointer;
+}
+/*
+*trending list movies
+*/
+
+.movie-list {
+  position: relative;
+  background-color: black;
+  height: 90%;
+}
+dialog {
+  width: 500px;
+  background: #e8e8e8;
+  border: 1px solid #dadada;
+  font-family: sans-serif;
+  padding: 5px 10px 20px 20px;
+}
+/**
+*footer movieflix
+*/
+
+footer {
+  position: relative;
+  width: 100%;
+  color: dimgrey;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+ul li {
+  list-style: none;
+  padding: 10px;
+  margin-left: 20px;
+}
+.flix-footer {
+  position: relative;
+  bottom: 0;
+  font-size: 15px;
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+}
+.flix-footer a {
+  color: dimgrey;
+  text-decoration: none;
+}
+.flix-footer a:hover {
+  color: lightgrey;
+}
+.foot-msg {
+  text-align: center;
+}
+.foot-msg img {
+  width: 3%;
+  height: 3%;
+}

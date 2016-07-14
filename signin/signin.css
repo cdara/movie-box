@@ -1,0 +1,76 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+}
+.signin-form {
+  position: relative;
+  height: 350px;
+  left: 10%;
+  top: 20%;
+  background: linear-gradient(#ff0430, #990000);
+  border-radius: 5px;
+  padding: 5px;
+  width: 300px;
+  font-weight: bold;
+}
+.signin-page {
+  position: relative;
+  background-image: url(../_images/bg-signin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+  height: 100%;
+}
+.page-txt {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+}
+.select-role {
+  border: none;
+  padding: 10px;
+  text-align: center;
+}
+.user-signin {
+  padding: 30px;
+  border: none;
+  border-radius: 10px;
+}
+.user-signin input {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  color: #636466;
+  padding: 10px;
+  margin-bottom: 25px;
+  width: 90%;
+  border-radius: 5px;
+  font-size: 15px;
+}
+#signin-btn {
+  background: linear-gradient(#6ee866, #008800);
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 20px;
+  text-align: center;
+}
+#signin-btn:hover {
+  background: #008800;
+}
+.pwd-forgot {
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  text-align: right;
+  width: 150px;
+  font-size: 15px;
+  padding: 5px 15px;
+}
+.pwd-forgot:hover {
+  color: grey;
+}
