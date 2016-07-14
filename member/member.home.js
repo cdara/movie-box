@@ -48,6 +48,20 @@
     htmlFavorite += "</div>";
     favoritePoster.innerHTML = htmlFavorite;
 
+    //mouse wheel
+    $("#new-release").mousewheel(function(event, delta) {
+      this.scrollLeft -= (delta * 70);
+      event.preventDefault();
+    });
 
+    $("#watch-trending").mousewheel(function(event, delta) {
+      this.scrollLeft -= (delta * 70);
+      event.preventDefault();
+    });
+
+    $("#watch-favorite").mousewheel(function(event, delta) {
+      this.scrollLeft -= (delta * 70);
+      event.preventDefault();
+    });
   });
 })();
