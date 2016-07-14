@@ -52,7 +52,7 @@ a {
 }
 #search-flix {
   position: absolute;
-  background: url(../_images/search.png) no-repeat 10px 6px #404040;
+  background: url("https://raw.githubusercontent.com/cdara/movie-box/gh-pages/_images/search.png") no-repeat 10px 6px #404040;
   border: none;
   font: 12px arial, helvetica, sans-serif;
   color: white;
