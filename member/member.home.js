@@ -49,13 +49,19 @@
     favoritePoster.innerHTML = htmlFavorite;
     
     //mouse left scroll on flixposter
-    $("watch-trending").mousewheel(function(event, delta) {
-
-      this.scrollLeft -= (delta * 40);
-    
+    $("#new-release").mousewheel(function(event, delta) {
+      this.scrollLeft -= (delta * 70);
       event.preventDefault();
+    });
 
-   });
+    $("#watch-trending").mousewheel(function(event, delta) {
+      this.scrollLeft -= (delta * 70);
+      event.preventDefault();
+    });
+
+    $("#watch-favorite").mousewheel(function(event, delta) {
+      this.scrollLeft -= (delta * 70);
+      event.preventDefault();
 
   });
 })();
