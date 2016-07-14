@@ -15,7 +15,7 @@ body {
 }
 .signin-page {
   position: relative;
-  background-image: url(../_images/bg-signin.jpg);
+  background-image: url(https://raw.githubusercontent.com/cdara/movie-box/gh-pages/_images/bg-signin.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center, center;
