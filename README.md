@@ -4,7 +4,9 @@ Movie online site inspired from famous website. Created for summer learning proj
 View demo 
 https://cdara.github.io/movie-box/
 
-Technology
+{{Sign In or Register using your dummy input data to login into homepage}} 
+
+TECHNOLOGY
 
 Language: HTML, CSS, JavaScript
 
